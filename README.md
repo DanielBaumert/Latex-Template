@@ -1,4 +1,6 @@
 # Proseminar SQL-Injection
+## Info 
+The files ``ACM-Reference-Format.tex`` and ``acmart.cls`` must be in the same folder as ``main.tex``.
 ## Ubuntu
 ### Install latex
 ```bash
