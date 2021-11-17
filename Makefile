@@ -4,7 +4,7 @@ build:
 build_clean:	
 	cd src/; pdflatex main.tex
 	cd src/; pdflatex main.tex
-	rm src/**/*.aux src/**/*.log src/**/*.out src/**/*.toc
+	rm **/*.aux **/*.log **/*.out **/*.toc
 compile_acmart: 
 	cd packages/acmart/; latex acmart.ins
 	cp packages/acmart/acmart.cls src/acmart.cls
